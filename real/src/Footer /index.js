@@ -1,0 +1,50 @@
+import './index.css';
+import { FaFacebook } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaSquareWhatsapp } from "react-icons/fa6";
+import { IoCall } from "react-icons/io5";
+import { TfiEmail } from "react-icons/tfi";
+
+
+
+const Footer = () => {
+    return(
+        <div className='color'>
+    <div>
+    <h1>Follow us on</h1>
+
+     <div className="images"> 
+            <p><FaFacebook size='1.9rem' /></p>
+            <p><RiInstagramFill size='1.9rem' /></p>
+            <p><FaXTwitter size='1.9rem' /></p>
+            
+            </div>
+           
+        </div>
+        <div className='subscribe'>
+            <h1>Enter EmailAddress</h1>
+            <input type="text" placeholder='' required class="input"></input>
+        </div>
+        <div className='sms'>
+            <p>get sms on the current trends</p>
+        </div>
+        <div className='bottomfooter'>
+            <div id="whatsapp">
+            <p><FaSquareWhatsapp size='3.4rem' /></p>
+            <p>0722567890</p>
+            </div>
+            <div id="calling">
+                <p><IoCall size='3.4rem' /></p>
+            <p>+254715773322</p>
+            </div>
+            <div id="email">
+                <p><TfiEmail size='3.4rem' /></p>
+            <p>realfashion@gmail.com</p>
+            </div>
+        </div>
+        </div>
+    );
+}
+
+export default Footer
