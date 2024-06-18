@@ -5,6 +5,7 @@ import Mission from './mission';
 function App() {
   return (
     <div className="App">
+      <Team/>
       <Mission/>
       <About/>
     </div>

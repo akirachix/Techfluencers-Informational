@@ -1,0 +1,40 @@
+.images{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 6%;
+
+
+}
+.img1{
+    width: 430px;
+    height: 430px;
+}
+.heading h1{
+    justify-content: center;
+    margin-left: 40%;
+
+
+}
+@media (max-width: 768px) {
+    .images{
+        flex-wrap: wrap;
+        
+        justify-content: center;
+        margin-top: 6%;
+    
+    
+    }
+    .img1{
+        width: 400px;
+        height: 400px;
+    }
+    .heading h1{
+        justify-content: center;
+        margin-left: 5%;
+    }
+    
+    
+
+
+  }
