@@ -1,0 +1,39 @@
+#navbar a{
+    
+    text-decoration: none;
+    font-size: 32px;
+    color: rgb(53, 53, 180);
+    /* margin-top: 40px; */
+     margin-top: 30px;
+}
+#whole{
+    background-image: url(https://i.pinimg.com/564x/5c/72/21/5c722158b2fdc69b3a7459f8a9757ead.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* height: 1000px;
+    margin-top: 0; */
+    height: 930px;
+    background-repeat:round;
+    /* margin-top: 42px; */
+    background-size: contain;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+
+}
+
+img{
+    height: 90px;
+    width: 110px;
+}
+p{
+    text-align: center;
+    font-size:70px;
+    margin-top: 160px;
+    color: rgb(24, 14, 11);
+    background-color: rgb(245, 210, 210);
+    background-size: 50px;
+   
+}
