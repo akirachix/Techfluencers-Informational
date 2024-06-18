@@ -1,0 +1,192 @@
+body{
+    background-color: antiquewhite;
+}
+
+.about{
+    font-size: 19px;
+    text-align: center;
+
+    
+}
+
+
+.team{
+    border-radius: 50%;
+    width: 200px;
+    height: 210px;
+
+}
+
+.images{
+    display: flex;
+    gap: 2%;
+    font-size: 15px;
+}
+
+.wholepage{
+    /* justify-content: space-between; */
+    /* margin-top:4%; */
+}
+
+
+.collegues{
+    /* margin-left: -7%; */
+    font-size: 40px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:280px) and (max-width:400px){
+    body{
+        background-color: antiquewhite;
+    }
+    
+    .about{
+        font-size: 10px;
+        /* margin-left: -2%; */
+    }
+    
+    
+    .team{
+        border-radius: 50%;
+        width: 70px;
+        height: 50px;
+    
+    }
+    
+    .images{
+        margin-left: 20%;
+        font-size: 8.5px;
+        flex-wrap: wrap;
+    }
+    
+    .wholepage{
+        margin-top: -5%;
+    }
+
+    .collegues{
+        /* margin-left: -7%; */
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:750px){
+    body{
+        background-color: antiquewhite;
+    }
+    
+    .about{
+        font-size: 10px;
+        /* margin-left: -2%; */
+    }
+    
+    
+    .team{
+        border-radius: 50%;
+        width: 140px;
+        height: 100px;
+    
+    }
+    
+    .images{
+        margin-left: 20%;
+        font-size: 8.5px;
+        flex-wrap: wrap;
+    }
+    
+    .wholepage{
+        /* margin-top: -5%; */
+    }
+
+    .collegues{
+        /* margin-left: -7%; */
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (min-width:750px) and (max-width:1280px){
+    /* body{
+        background-color: antiquewhite;
+    }
+    
+    .about{
+        font-size: 20px;
+        
+    }
+    
+    
+    .team{
+        border-radius: 50%;
+        width: 250px;
+        height: 200px;
+    
+    }
+    
+    .images{
+        
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .wholepage{
+        
+        
+    }
+    
+    .collegues{
+    
+        font-size: 40px;
+    }
+ */
+ body{
+    background-color: antiquewhite;
+}
+
+.about{
+    font-size: 19px;
+    /* text-align: center; */
+
+    
+}
+
+
+.team{
+    border-radius: 50%;
+    width: 200px;
+    height: 210px;
+
+}
+
+.images{
+    flex-wrap: wrap;
+
+    gap: 2%;
+    font-size: 15px;
+}
+
+.wholepage{
+margin-bottom: 30px;
+
+}
+
+
+.collegues{
+    /* margin-left: -7%; */
+    font-size: 40px;
+    /* text-align: center; */
+}
+
+
+
+
+
+}
