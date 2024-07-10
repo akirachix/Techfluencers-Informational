@@ -5,31 +5,31 @@ const Team = () =>{
             <h3 className="collegues">Our Team</h3>
         <div className="images">
               <figure>
-            < img src="/Media/gladwell.png" alt="" className='team'/>
+            < img src="/Media/gladwell.png" alt="" className='squad'/>
             <p className="teamshot">Gladwell Wanjiku</p>
             <p className="teamshot">Software Engineer</p>
             </figure>
             <br></br>
             <figure>
-            < img src="/Media/fifi.png" alt="" className='team' />
+            < img src="/Media/fifi.png" alt="" className='squad' />
             <p className="teamshot">Fridah Wothaya</p>
             <p className="teamshot">Software Engineer</p>
             </figure>
             <br></br>
             <figure>
-            < img src="/Media/muna.jpg" alt="" className='team' />
+            < img src="/Media/muna.jpg" alt="" className='squad' />
             <p className="teamshot">Mumina Abdo</p>
             <p className="teamshot">Software Engineer</p>
             </figure>
             <br></br>
             <figure>
-            < img src="/Media/ajema.png" alt="" className='team'/>
+            < img src="/Media/ajema.png" alt="" className='squad'/>
             <p className="teamshot">Agnes Ajema</p>
             <p className="teamshot">Software Engineer</p>
             </figure>
             <br></br>
             <figure>
-            < img src="/Media/njango.png" alt="" className='team'/>
+            < img src="/Media/njango.png" alt="" className='squad'/>
             <p className="teamshot">Maureen Njango</p>
             <p className="teamshot">Software Engineer</p>
             </figure>
