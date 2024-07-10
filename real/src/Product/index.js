@@ -1,7 +1,5 @@
 import "./index.css"
 
-
-// const images () =
 const Product = () =>{
     return(
      <div className="largecontainer">

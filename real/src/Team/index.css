@@ -1,4 +1,10 @@
+body{
+    background-color: rgb(223, 209, 209);
+}
+
+
 .squad{
+    
     border-radius: 50%;
     width: 200px;
     height: 210px;
@@ -151,7 +157,7 @@
     .squad{
         border-radius: 50%;
         width: 350px;
-        height: 320px;
+        height: 350px;
         margin-top: 20%;
         flex-wrap: wrap;
         
