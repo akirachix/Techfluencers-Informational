@@ -29,4 +29,4 @@ const MissionandVision = () =>{
 
     )
 }
-export default Mission;
+export default MissionandVision;
