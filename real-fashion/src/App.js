@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Mission from './mission';
+import Footer from './Footer copy';
 
 function App() {
   return (
     <div className="App">
-      <Mission/>
+      <Footer/>
+     
     </div>
   );
 }
