@@ -1,5 +1,5 @@
 import './index.css'
-const Mission = () =>{
+const MissionandVision = () =>{
     return(
         <div className='Missionandvision'>
             <div className='mission'>
