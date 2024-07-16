@@ -1,8 +1,16 @@
 import "./index.css"
 
+<<<<<<< HEAD
 const Product = () =>{
     return(
      <div className="largecontainer">
+=======
+
+// const images () =
+const Product = () =>{
+    return(
+     <div>
+>>>>>>> b0f50eb61171a0456826185bdcd3c456746dfc6c
         <div className="heading">
             <h1>See What We Have...</h1></div>  
 

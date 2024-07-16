@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import Product from './Product';
 import './App.css';
@@ -10,6 +11,17 @@ function App() {
       <Product/>
       <About/>
       <Team/>
+=======
+import './App.css';
+import Product from './Product';
+
+
+function App() {
+  return (
+    <div>
+      <Product/>
+
+>>>>>>> b0f50eb61171a0456826185bdcd3c456746dfc6c
     </div>
   );
 }
