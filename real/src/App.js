@@ -1,10 +1,10 @@
 import './App.css';
-import Mission from './Missionandvission';
+import MissionandVision from './Missionandvission';
 
 function App() {
   return (
     <div className="App">
-   <Mission/>
+   <MissionandVision/>
 import Product from './Product';
 function App() {
   return (
