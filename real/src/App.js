@@ -3,7 +3,7 @@ import MissionandVision from './Missionandvission';
 
 function App() {
   return (
-    <div className="App">
+    <div>
    <MissionandVision/>
 import Product from './Product';
 function App() {
