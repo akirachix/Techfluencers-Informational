@@ -4,7 +4,7 @@ import "./index.css"
 // const images () =
 const Product = () =>{
     return(
-     <div id="page">
+     <div id="clothes-details">
         <div className="heading">
             <h1>See What We Have...</h1></div>  
 
