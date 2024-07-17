@@ -10,9 +10,10 @@ import { TfiEmail } from "react-icons/tfi";
 
 const Footer = () => {
     return(
+        <div className='container'>
         <div className='color'>
     <div>
-    <h1>Follow us on</h1>
+    <h1 className='follow'>Follow us on</h1>
 
      <div className="images"> 
             <p><FaFacebook size='1.9rem' /></p>
@@ -23,12 +24,10 @@ const Footer = () => {
            
         </div>
         <div className='subscribe'>
-            <h1>Enter EmailAddress</h1>
-            <input type="text" placeholder='' required class="input"></input>
+        <h1>Contact us</h1>
+        
         </div>
-        <div className='sms'>
-            <p>get sms on the current trends</p>
-        </div>
+        
         <div className='bottomfooter'>
             <div id="whatsapp">
             <p><FaSquareWhatsapp size='3.4rem' /></p>
@@ -44,7 +43,10 @@ const Footer = () => {
             </div>
         </div>
         </div>
+        </div>
     );
 }
 
-export default Footer
+
+
+export default Footer;
