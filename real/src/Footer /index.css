@@ -51,9 +51,9 @@ input{
     justify-content: center;
     
 }
-.images{
+.imagess{
 display: flex;
-margin-left: 850px;
+margin-left: 19px;
 gap: 2%;
 align-items: center;
 
@@ -124,9 +124,10 @@ h1{
         gap: 15%;
         margin-left: 15%;
     }
-    .images{
+    .imagess
+    {
     display: flex;
-    margin-left: 7%;
+    margin-left: 5%;
     gap: 2%;
 
     
@@ -284,7 +285,7 @@ h1{
         gap: 15%;
         margin-left: 15%;
     }
-    .images{
+    .imagess{
     display: flex;
     margin-left: 4%;
     gap: 2%;
@@ -369,7 +370,7 @@ h1{
         gap:15%;
         margin-left: 16%;
     }
-    .images{
+    .imagess{
     display: flex;
     margin-left: 3%;
     gap: 2%;
@@ -448,7 +449,7 @@ h1{
         gap: 15%;
         margin-left: 31%;
     }
-    .images{
+    .imagess{
     display: flex;
     margin-left: 4%;
     gap: 2%;
@@ -527,7 +528,7 @@ h1{
         gap: 15%;
         margin-left: 34%;
     }
-    .images{
+    .imagess{
     display: flex;
     margin-left: 5%;
     gap: 2%;
@@ -608,7 +609,7 @@ h1{
         padding-right: 10px;
         
     }
-    .images{
+    .imagess{
     display: flex;
     margin-left: 39.5%;
     gap: 2%;
@@ -691,7 +692,7 @@ h1{
         padding-right: -10px;
         
     }
-    .images{
+    .imagess{
     display: flex;
     margin-left: 40%;
     gap: 2%;

@@ -15,7 +15,7 @@ const Footer = () => {
     <div>
     <h1 className='follow'>Follow us on</h1>
 
-     <div className="images"> 
+     <div className="imagess"> 
             <p><FaFacebook size='1.9rem' /></p>
             <p><RiInstagramFill size='1.9rem' /></p>
             <p><FaXTwitter size='1.9rem' /></p>
