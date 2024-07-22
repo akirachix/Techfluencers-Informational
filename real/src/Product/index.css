@@ -83,6 +83,10 @@
         top: 40px;
     
     }
+    #clothes-details{
+        background-color:rgba(217, 187, 186) ;
+        width: 100px;
+    }
 
 }
 @media (min-width: 1020px) and (max-width: 1280px){
@@ -106,6 +110,10 @@
         position: relative;
         top: 40px;
     
+    }
+    #clothes-details{
+        background-color:rgba(217, 187, 186) ;
+        width: 1805px;
     }
 
 }
@@ -149,6 +157,40 @@
         position: relative;
         top: 40px;
     }
+    .images{
+
+        display: flex;
+        gap: 3%;
+    }
+    #clothes-details{
+        background-color:rgba(217, 187, 186) ;
+        width: 1361px;
+    }
+    @media  screen and (min-width: 820px) and (max-width: 880px) {
+
+    .clothes{
+        width: 400px;
+        height: 380px;
+    }
+
+    .heading h1{
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        top: 40px;
+    }
+    .images{
+
+        display: flex;
+        gap: 3%;
+    }
+    #clothes-details{
+        background-color:rgba(217, 187, 186) ;
+        width: 1610px;
+    }
+    }
+
+    
 
 }
 

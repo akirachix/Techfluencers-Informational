@@ -1,0 +1,160 @@
+#Missionandvission{
+    display: flex;
+    gap: 17%;
+    height: 900px;
+    width: 1835px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../Image/trousers.png");
+    opacity: 0.75;
+}
+.mission{
+    background-color: rgba(224, 137, 151, 0.705);
+    height: 600px;
+    width: 580px;
+    margin-top: 8%;
+    margin-left: 8%;
+    font-size: 26px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;  
+    line-height: 2.0; 
+    padding: 2%;    
+}
+.vision{
+    background-color: rgba(224, 137, 151, 0.76);
+    height: 600px;
+    width: 580px;
+    margin-top: 8%;
+    font-size: 26px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 2.0; 
+    padding: 2%;
+}
+.heading{
+    text-align: center;
+}
+@media  screen and (min-width: 820px) and (max-width: 880px) {
+    #Missionandvission{
+        display: flex;
+        width: 1610px;
+        grid-template-columns: 1 1fr;
+        background-size: cover;
+    }
+    .mission{
+        background-color: rgba(255, 192, 203, 0.671);
+        height: 450px;
+        width: 550px;
+        font-size: 20px;
+        margin-left: 1%;
+        padding: 4%;
+    }
+    .vision{
+        background-color: rgba(255, 192, 203, 0.637);
+        height: 450px;
+        width: 550px;
+        font-size: 20px;
+        padding: 4%;
+    }
+}
+@media screen and (min-width: 391px) and (max-width: 580px){
+    #Missionandvission{
+        display: grid;
+        grid-gap: 0%;
+        width: 300px;
+        grid-template-columns: 1 1fr;
+        background-size: cover;
+    }
+    .mission{
+        background-color: rgba(255, 192, 203, 0.692);
+        height: 350px;
+        width: 250px;
+        font-size: 16px;
+        margin-left: 15%;
+        padding: 4%;
+    }
+    .vision{
+        background-color: rgba(255, 192, 203, 0.678);
+        height: 300px;
+        width: 250px;
+        font-size: 16px;
+        margin-left: 12%;
+        padding: 4%;
+    }
+} 
+@media screen and (max-width: 768px){
+    #Missionandvission{
+        display: flex;
+        width: 1370px;
+        /* height: 900px; */
+        grid-template-columns: 1 1fr;
+        background-size: cover;
+        grid-gap: 3%;
+    }
+    .mission{
+        background-color: rgba(255, 192, 203, 0.658);
+        height: 550px;
+        width: 500px;
+        font-size: 26px;
+        margin-left: 4%;
+        padding: 4%;
+    }
+    .vision{
+        background-color: rgba(255, 192, 203, 0.692);
+        height: 550px;
+        width: 500px;
+        font-size: 26px;
+        padding: 4%;
+        /* margin-left: 0%; */
+    }
+}
+@media screen and (max-width: 360px){
+    #Missionandvission{
+        display: grid;
+        width: 360px;
+        grid-template-columns: 1 1fr;
+        background-size: cover;
+    }
+    .mission{
+        background-color: rgba(255, 192, 203, 0.664);
+        height: 350px;
+        width: 320px;
+        font-size: 16px;
+        margin-left: 2%;
+        padding: 4%;
+    }
+    .vision{
+        background-color: rgba(255, 192, 203, 0.623);
+        height: 350px;
+        width: 320px;
+        font-size: 16px;
+        margin-left: 2%;
+        padding: 4%;
+    }
+}
+@media screen and (min-width: 412px) and (max-width: 680px){
+    #Missionandvission{
+        display: grid;
+        width: 410px;
+        grid-template-columns: 1 1fr;
+        background-size: cover;
+    }
+    .mission{
+        background-color: rgba(255, 192, 203, 0.664);
+        height: 350px;
+        width: 320px;
+        font-size: 16px;
+        margin-left: 7%;
+        padding: 4%;
+    }
+    .vision{
+        background-color: rgba(255, 192, 203, 0.623);
+        height: 350px;
+        width: 320px;
+        font-size: 16px;
+        margin-left: 7%;
+        padding: 4%;
+    }
+}
+
+
