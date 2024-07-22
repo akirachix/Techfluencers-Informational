@@ -1,7 +1,7 @@
 import './index.css'
-const Missionandvision = () =>{
+const MissionandVission = () =>{
     return(
-        <div className='Missionandvision'>
+        <div id='Missionandvission'>
             <div className='mission'>
         <h3 className= 'heading'> Mission</h3>
         <p>Real Fashion is an online B2B platform
@@ -29,4 +29,4 @@ const Missionandvision = () =>{
 
     )
 }
-export default Missionandvision;
+export default MissionandVission;

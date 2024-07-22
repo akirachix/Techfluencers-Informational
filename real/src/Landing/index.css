@@ -1,0 +1,248 @@
+#call-to-action{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+#message{
+    font-size: 60px;
+    font-weight:bolder;
+    color: #011936;
+    margin-top: 140px;
+   
+}
+.pic{
+    width: 805px;
+    height: 561px;
+}
+@media screen and (min-width:280px) and (max-width: 290px){
+    #call-to-action{
+       flex-wrap: wrap;
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: -29px;
+        margin-left: 20px;
+       
+    }
+    .pic{
+        width: 260px;
+        height: 180px;
+    }   
+}
+@media screen and (min-width: 360px) and (max-width: 370px) {
+    #call-to-action{
+        flex-wrap: wrap;
+        margin-top: 30px;
+    
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 15px;
+        margin-left: 28px;
+       
+    }
+    .pic{
+        width: 370px;
+        height: 300px;
+    } 
+}
+@media screen and (min-width: 375px) and (max-width: 380px) {
+    #call-to-action{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 15px;
+        margin-left: 30px;
+       
+    }
+    .pic{
+        width: 370px;
+        height: 290px;
+    } 
+}
+@media screen and (min-width: 414px) and (max-width: 420px) {
+    #call-to-action{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 10px;
+        margin-left: 15px;
+       
+    }
+    .pic{
+        width: 355px;
+        height: 250px;
+    } 
+}   
+@media only screen and (min-width: 390px) and (max-width: 400px) {
+    #call-to-action{
+        display: flex;
+        gap: 45%;
+        margin-top: 40px;
+    
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 20px;
+        margin-left: 40px;
+       
+    }
+    .pic{
+        width: 650px;
+        height: 250px;
+    } 
+
+}
+@media  screen and (min-width: 430px) and (max-width: 440px) {
+    #call-to-action{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 50px;
+       
+    }
+    .pic{
+        width: 350px;
+        height: 250px;
+    } 
+}
+@media  screen and (min-width: 412px) and (max-width: 440px) {
+    #call-to-action{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 40px;
+        margin-left: 10px;
+       
+    }
+    .pic{
+        width: 350px;
+        height: 250px;
+    } 
+}
+@media  screen and (min-width: 768px) and (max-width: 770px) {
+    #call-to-action{
+        display: flex;
+        margin-left: 52%;
+        margin-top: 40px;
+    
+    }
+    #message{
+        font-size: 60px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 50px;
+       
+    }
+    .pic{
+        width: 3000px;
+        height: 490px;
+    } 
+}
+@media  screen and (min-width: 540px) and (max-width: 570px) {
+    #call-to-action{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    
+    }
+    #message{
+        font-size: 40px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 30px;
+       
+    }
+    .pic{
+        width: 490px;
+        height: 280px;
+    } 
+}
+@media  screen and (min-width: 1024px) and (max-width: 1040px) {
+    #call-to-action{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 50%;
+        gap: 15%;
+    
+    }
+    #message{
+        font-size: 80px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 80px;
+       
+    }
+    .pic{
+        width: 890px;
+        height: 690px;
+    } 
+}
+@media  screen and (min-width: 1280px) and (max-width: 1300px) {
+    #call-to-action{
+       display: flex;
+       justify-content: space-around;
+        margin-top: 40px;
+        gap: 30%;    
+    }
+    #message{
+        font-size: 60px;
+        font-weight:bolder;
+        color: #011936;
+        margin-top: 80px;
+        margin-left: 75%;
+       
+    }
+    .pic{
+        width: 730px;
+        height: 490px;
+    } 
+    
+}
+@media  screen and (min-width: 820px) and (max-width: 880px) {
+    #call-to-action{
+        display: flex;
+        justify-content: space-around;
+         margin-top: 40px;
+     
+     }
+     #message{
+         font-size: 60px;
+         font-weight:bolder;
+         color: #011936;
+         margin-top: 80px;
+         margin-left: 95%;
+        
+     }
+     .pic{
+         width: 730px;
+         height: 490px;
+     } 
+}
+

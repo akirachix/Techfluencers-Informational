@@ -1,8 +1,8 @@
-.Missionandvision{
+#Missionandvission{
     display: flex;
     gap: 17%;
-    height: 980px;
-    width: 1850px;
+    height: 900px;
+    width: 1835px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../Image/trousers.png");
@@ -10,7 +10,7 @@
 }
 .mission{
     background-color: rgba(224, 137, 151, 0.705);
-    height: 680px;
+    height: 600px;
     width: 580px;
     margin-top: 8%;
     margin-left: 8%;
@@ -22,7 +22,7 @@
 }
 .vision{
     background-color: rgba(224, 137, 151, 0.76);
-    height: 680px;
+    height: 600px;
     width: 580px;
     margin-top: 8%;
     font-size: 26px; 
@@ -34,10 +34,10 @@
 .heading{
     text-align: center;
 }
-@media screen and (max-width: 850px){
-    .Missionandvision{
-        grid-gap: 1%;
-        width: 820px;
+@media  screen and (min-width: 820px) and (max-width: 880px) {
+    #Missionandvission{
+        display: flex;
+        width: 1610px;
         grid-template-columns: 1 1fr;
         background-size: cover;
     }
@@ -58,7 +58,7 @@
     }
 }
 @media screen and (min-width: 391px) and (max-width: 580px){
-    .Missionandvision{
+    #Missionandvission{
         display: grid;
         grid-gap: 0%;
         width: 300px;
@@ -83,9 +83,9 @@
     }
 } 
 @media screen and (max-width: 768px){
-    .Missionandvision{
+    #Missionandvission{
         display: flex;
-        width: 1390px;
+        width: 1370px;
         /* height: 900px; */
         grid-template-columns: 1 1fr;
         background-size: cover;
@@ -109,7 +109,7 @@
     }
 }
 @media screen and (max-width: 360px){
-    .Missionandvision{
+    #Missionandvission{
         display: grid;
         width: 360px;
         grid-template-columns: 1 1fr;
@@ -129,6 +129,30 @@
         width: 320px;
         font-size: 16px;
         margin-left: 2%;
+        padding: 4%;
+    }
+}
+@media screen and (min-width: 412px) and (max-width: 680px){
+    #Missionandvission{
+        display: grid;
+        width: 410px;
+        grid-template-columns: 1 1fr;
+        background-size: cover;
+    }
+    .mission{
+        background-color: rgba(255, 192, 203, 0.664);
+        height: 350px;
+        width: 320px;
+        font-size: 16px;
+        margin-left: 7%;
+        padding: 4%;
+    }
+    .vision{
+        background-color: rgba(255, 192, 203, 0.623);
+        height: 350px;
+        width: 320px;
+        font-size: 16px;
+        margin-left: 7%;
         padding: 4%;
     }
 }
