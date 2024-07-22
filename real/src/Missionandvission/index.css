@@ -18,7 +18,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;  
     line-height: 2.0; 
-    padding: 1%;    
+    padding: 2%;    
 }
 .vision{
     background-color: rgba(224, 137, 151, 0.76);
@@ -29,9 +29,11 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     line-height: 2.0; 
-    padding: 1%;
+    padding: 2%;
 }
-
+.heading{
+    text-align: center;
+}
 @media screen and (max-width: 850px){
     .Missionandvision{
         grid-gap: 1%;
