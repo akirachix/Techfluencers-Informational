@@ -106,7 +106,7 @@ h1{
     .color{
         background-color: cadetblue;
         border-radius: 0px;
-        width: 100%;
+        width: 120%;
         height: 890px;
         margin-top: 2px;
         padding-top: 10px;
@@ -677,7 +677,7 @@ h1{
     .color{
         background-color: cadetblue;
         border-radius: 0px;
-        width: 100%;
+        width: 150%;
         height: 890px;
         margin-top: 2px;
         padding-top: 10px;
@@ -700,7 +700,7 @@ h1{
     }
     .imagess{
     display: flex;
-    margin-left: 40%;
+    margin-left: 41%;
     gap: 2%;
 
     

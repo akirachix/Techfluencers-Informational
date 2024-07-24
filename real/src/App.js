@@ -16,9 +16,9 @@ function App() {
       <Navbar/>
       <Landing/>
       <Product/>
+      <Missionandvision/>
       <Footer/>
 
-      <Missionandvision/>
 
 
     </div>
