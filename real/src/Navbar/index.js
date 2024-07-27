@@ -20,7 +20,7 @@ const scrollToSection = (sectionId) =>{
         <div>
             <nav id='navbar'>
                 <div>
-                    <img src='/pics/logo.png' className='logo'></img>
+                    <img src='/pics/logo.png'alt='logo' className='logo'></img>
                 </div>
             <div className={`hamburger ${isMenuOpen ? 'active' : '' }`} onClick={toggleMenu}>
             <span></span>
@@ -30,8 +30,8 @@ const scrollToSection = (sectionId) =>{
             <div  className={`nav-links ${isMenuOpen ? 'active' :''}`}>
             <a href='#call-to-action' onClick={(e) =>{e.preventDefault();scrollToSection('call-to-action');}}>Home</a>
             <a href='#Missionandvission' onClick={(e)=>{e.preventDefault();scrollToSection('Missionandvission');}}>About Us</a>
-            <a href='#' onClick={toggleMenu}>Contacts</a>
-            <a href='#' onClick={toggleMenu}>Team</a>
+            <a href='#Contacts' onClick={toggleMenu}>Contacts</a>
+            <a href='#team' onClick={toggleMenu}>Team</a>
             <a href= "#page" onClick={(e) => {e.preventDefault(); scrollToSection ('page');}}>Trends</a>
             </div>
 

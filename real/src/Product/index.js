@@ -10,8 +10,8 @@ const Product = () =>{
 
         <div className="images" >
            
-    <img src='/Images/redd.jpg' alt="Picture showing cotton" className="clothes"/>
-    <img src='/Images/brown.jpg' alt="picture showing dress" className="clothes"/>
+    <img src='/Images/redd.jpg' alt="cotton" className="clothes"/>
+    <img src='/Images/brown.jpg' alt="dress" className="clothes"/>
     <img src="/Images/doted.jpg" alt="mens clothes" className="clothes"/>
 
         </div>
