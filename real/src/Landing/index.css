@@ -405,7 +405,7 @@
          width: 730px;
          height: 490px;
      } 
-} */
+} 
 
 @media screen and (min-width: 100px) and (max-width: 280px) {
   #call-to-action {

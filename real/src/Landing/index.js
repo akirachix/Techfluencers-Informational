@@ -5,7 +5,6 @@ const Landing =()=>{
     return(
         <div id='call-to-action'>
           <p id='message'>View The Best Bales <br/>For Your Second Hand <br/>Business</p> 
-          <img src='/pics/vector.png'alt="Pictures"className='pic'></img>  
           <img src='/Images/land.png' className='pic'></img>  
         </div>
     )
