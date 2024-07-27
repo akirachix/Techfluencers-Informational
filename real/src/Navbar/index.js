@@ -21,6 +21,7 @@ const scrollToSection = (sectionId) =>{
             <nav id='navbar'>
                 <div>
                     <img src='/pics/logo.png'alt='logo' className='logo'></img>
+                    <img src='/Images/logo.png' className='logo'></img>
                 </div>
             <div className={`hamburger ${isMenuOpen ? 'active' : '' }`} onClick={toggleMenu}>
             <span></span>
